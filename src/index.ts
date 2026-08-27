@@ -61,7 +61,7 @@ function updateDiscordActivity(): void {
         largeImageKey: trackInfo.image,
         largeImageText: trackInfo.album,
         smallImageKey: trackInfo.paused ? 'icon-paused' : 'icon-playing',
-        smallImageText: 'Qobuz mod by szeroki (https://github.com/szerookii/qobuz-discord-rpc)',
+        smallImageText: 'Qobuz mod by sowahq (https://github.com/sowahq/qobuz-discord-rpc)',
     };
 
     discord.user?.setActivity(activity).catch(console.error);
